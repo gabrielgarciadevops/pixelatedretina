@@ -1,0 +1,24 @@
+/* FILEPATH: /Users/gabrielgarcia/Documents/my website/styles.css */
+
+/* Import the font */
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+/* Apply the font and set the color to white */
+body {
+  background-color: black;
+  font-family: 'Kode Mono', monospace;
+  color: white;
+}
+
+/* Reduce the size of all images by 70% */
+img {
+  width: 70%;
+  height: auto;
+}
+
+
+/* Apply the font and set the color to white */
+body {
+  background-color: black;
+  font-family: 'Kode Mono', monospace;
+  color: white;
+}
