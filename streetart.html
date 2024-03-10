@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="styles.css">
+<head>
+    <title>Pixelated Retina</title>
+</head>
+<body>
+    <h1>street retina</h1>
+d
+    <div id="imageContainer">
+        <img id="randomImage" src="" alt="">
+    </div>
+
+    <script>
+        // Array of image URLs
+        var images = [
+    
+            "./images/p6.jpeg",
+            // Add more image URLs as needed
+        ];
+
+        // Get a random image from the array
+        var randomIndex = Math.floor(Math.random() * images.length);
+        var randomImageUrl = images[randomIndex];
+
+        // Set the random image source
+        var randomImageElement = document.getElementById("randomImage");
+        randomImageElement.src = randomImageUrl;
+    </script>
+</body>
+
+</html>
+    
 
