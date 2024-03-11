@@ -15,6 +15,11 @@ img {
   height: auto;
 }
 
+/* Reduce the size of #randomImage specifically to 50% */
+#randomImage {
+    width: 30%;
+    height: auto;
+}
 
 /* Apply the font and set the color to white */
 body {
